@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio Julián</title>
+  <link rel="stylesheet" href="pintura.css" />
+  <link rel="icon" href="Anime.jpeg" type="image/jpeg" />
+</head>
+<body>
+  <main class="container">
+    <header class="header card" role="banner" aria-label="Encabezado principal">
+      <img src="foto1.jpeg" alt="Foto de perfil de Julián" class="profile-pic" />
+      <h1 class="name">Julián</h1>
+      <p class="tagline">Resolviendo problemas con lógica y creatividad.</p>
+    </header>
+
+    <section id="sobre-mi" class="card section" tabindex="0" aria-labelledby="sobre-mi-title">
+      <h2 id="sobre-mi-title" class="section-title">Sobre mí</h2>
+      <p>Soy estudiante de soporte informático en Jujuy. Me gusta programar en Python, trabajar en proyectos grupales y dibujar en mis tiempos libres. Me enfoco en aprender con profundidad, mezclando lo técnico con lo creativo.</p>
+    </section>
+
+    <section id="educacion" class="card section" tabindex="0" aria-labelledby="educacion-title">
+      <h2 id="educacion-title" class="section-title">Educación</h2>
+      <ul>
+        <li><strong>Tecnicatura en Soporte Informático</strong> – Jujuy, Argentina (en curso)</li>
+        <li>Formación autodidacta en dibujo, HTML y Python</li>
+      </ul>
+    </section>
+
+    <section id="cursos" class="card section" tabindex="0" aria-labelledby="cursos-title">
+      <h2 id="cursos-title" class="section-title">Cursos</h2>
+      <ul>
+        <li>Inglés Técnico aplicado a informática</li>
+        <li>Fundamentos de Python</li>
+        <li>Introducción a HTML, CSS y JavaScript</li>
+        <li>Proyectos colaborativos de programación</li>
+      </ul>
+    </section>
+
+    <section id="proyectos" class="card section" tabindex="0" aria-labelledby="proyectos-title">
+      <h2 id="proyectos-title" class="section-title">Proyectos a futuro</h2>
+      <ul>
+        <li>Plataforma interactiva para enseñar dibujo digital</li>
+        <li>Sitio educativo con objetos 3D en vivo usando Three.js</li>
+        <li>Aplicación de soporte técnico inteligente con IA</li>
+      </ul>
+    </section>
+
+    <section id="contacto" class="card section" tabindex="0" aria-labelledby="contacto-title">
+      <h2 id="contacto-title" class="section-title">Contacto</h2>
+      <dl>
+        <dt>Email</dt>
+        <dd class="contact-item">
+          <a href="mailto:ejemplo@gmail.com" class="contact-link" aria-label="Correo electrónico ejemplo@gmail.com">ejemplo@gmail.com</a>
+          <span class="copy-icon" role="button" tabindex="0" aria-label="Copiar correo electrónico" data-copy="ejemplo@gmail.com">📋</span>
+        </dd>
+
+        <dt>Teléfono</dt>
+        <dd class="contact-item">
+          <a href="tel:+543881234567" class="contact-link" aria-label="Número de teléfono +54 388 123 4567">+54 388 123-4567</a>
+          <span class="copy-icon" role="button" tabindex="0" aria-label="Copiar número de teléfono" data-copy="+54 388 123-4567">📋</span>
+        </dd>
+      </dl>
+    </section>
+
+    <footer class="footer card" role="contentinfo">
+      <p>© 2025 Julián – Portafolio Profesional</p>
+    </footer>
+  </main>
+
+  <div id="toast" role="alert" aria-live="assertive" class="toast" hidden></div>
+
+  <script src="funcion.js"></script>
+</body>
+</html>
+
